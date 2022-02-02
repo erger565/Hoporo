@@ -227,7 +227,7 @@ function update() {
       camera.position.y += delta * 1.6;
       camera.position.z -= delta * 0.9;
       camera.rotation.x += delta * 4.9 * Math.PI / 180;
-   } else if (gameState.win && gameState.level < 5 && hero.y >= 11) {
+   } else if (gameState.win && gameState.level < 6 && hero.y >= 11) {
       document.querySelector('.modal-container--next').classList.remove('invisible');
       hero.y = -0.2;
    }
@@ -477,6 +477,9 @@ function initDecorations(scene, level) {
       } else if (level === 5) {
          decor1.position.set(2, 0.52, 2);
          decor2.position.set(24, 0.52, 16);
+       } else if (level === 6) {
+         decor1.position.set(6, 0.52, 6);
+         decor2.position.set(10, 0.52, 10);
       }
       scene.add(decor1);
       scene.add(decor2);
