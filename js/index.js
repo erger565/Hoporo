@@ -440,7 +440,7 @@ function initAudio() {
       killSound.setVolume(0.7);
    });
 
-   audioLoader.load('./media/sounds/music.mp3', buffer => {
+   audioLoader.load('./media/sounds/music1.mp3', buffer => {
       music.setBuffer(buffer);
       music.setLoop(true);
       music.setVolume(0.4);
