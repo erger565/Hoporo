@@ -351,7 +351,7 @@ function play () {
          document.querySelector('.modal-container').classList.add("invisible");
          initLevel();
 
-      } else if (document.querySelector('.modal-container--next').classList.contains("invisible") === false && gameState.level + 1 <= 5) {
+      } else if (document.querySelector('.modal-container--next').classList.contains("invisible") === false && gameState.level + 1 <= 6) {
 
          gameState.level++;
          localStorage.setItem('level', gameState.level);
