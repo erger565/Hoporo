@@ -1,4 +1,3 @@
-
 //This is the "Offline copy of pages" wervice worker
 
 //Install stage sets up the index page (home page) in the cahche and opens a new cache
