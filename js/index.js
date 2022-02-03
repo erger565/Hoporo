@@ -221,7 +221,7 @@ function update() {
       }
    }
 
-   if (gameState.win && hero.y < 11) {
+   if (gameState.win && hero.y < 11 && gameState.level == 6) {
       hero.y += delta * 3;
       hero.mesh.rotation.y += delta * 4;
       camera.position.y += delta * 1.6;
