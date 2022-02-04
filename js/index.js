@@ -362,6 +362,7 @@ function play () {
 
          document.querySelector('.modal-container--defeat').classList.add("invisible");
          initLevel();
+         
 
       } else if (document.querySelector('.modal-container--win').classList.contains("invisible") === false) {
 
